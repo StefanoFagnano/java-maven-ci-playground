@@ -19,6 +19,7 @@ jobs:
         java-version: '8'
         distribution: 'adopt'
         
+        
     - name: test_maven
       run: mvn clean test
 
